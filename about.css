@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'merriweather', serif;
+    
+}
+/* -- navbar start --*/
+.all{
+    background-color:white;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background-color:coral;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+.navbar{
+    background-color: rgba(113, 255, 47, 0.943);
+    height: 60px;
+    width: 100%;
+    margin-top: 1px;
+}
+ img{
+  margin-left: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: 60px;
+    
+}
+.nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.nav-link:hover{
+  background:white ;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid;
+}
+.navbar form{
+    width: 400px;
+}
+.navbar form button{
+    background:black;
+    color: white;
+    border: 2px solid;
+}  
+
+/*-- navbar end --*/
+
+body{
+    background-image:url(./image/all1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*----FOOTER START ---*/
+.footer{
+    background-color:rgba(0, 0, 0, 0.328);
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.socialIcon{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+   
+}
+
+.socialIcon a{
+    padding: 10px;
+    background-color:white;
+    border-radius: 8px;
+    
+}
+.socialIcon a i{
+    font-size: 18px;
+    color:black;
+   
+    
+}
+.socialIcon a:hover{
+    background-color:aqua;
+    border: 2px solid black;
+
+}
+.footerBottom{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.footerBottom:hover{
+    color: greenyellow;
+}
+.footerBottom span{
+    color: aqua;
+}
+
+/*---FOOTER END----*/
+
+/*---HEADER----*/
+
+
+h1{
+    padding-top: 80px;
+    font-size:40px ;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1:hover{
+  color:lightseagreen;
+}
+
+h1 span{
+    color: chocolate;
+}
+
+/*---------------------BODY-----------------------------*/
+
+.about_img{
+    border:2px solid black;
+    width: 650px;
+    height: 350px;
+}
+
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+padding-bottom: 20px;
+font-size: 20px;
+}
+.red-btn{
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgba(128, 255, 0, 0.651);
+    border-radius: 10px;
+}
+button:hover{
+    color:black;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

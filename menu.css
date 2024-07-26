@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'merriweather', serif;
+    
+}
+/* -- navbar start --*/
+.all{
+    background-color:white;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background-color:coral;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+.navbar{
+    background-color:greenyellow;
+    height: 60px;
+    width: 100%;
+}
+ img{
+  margin-left: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: 60px;
+    
+}
+.nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-link:hover{
+  background:white ;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid;
+}
+.navbar form{
+    width: 400px;
+}
+.navbar form button{
+    background:black;
+    color: white;
+    border: 2px solid;
+}   
+/*-- navbar end --*/
+body{
+    background-image:url(./image/all1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*---------FOOTER START--------------*/
+
+.footer{
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    /* margin-top: 720px; */
+    
+    
+}
+.socialIcon{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+   
+}
+
+.socialIcon a{
+    padding: 10px;
+    background-color:white;
+    border-radius: 8px;
+    
+}
+.socialIcon a i{
+    font-size: 18px;
+    color:black;
+   
+    
+}
+.socialIcon a:hover{
+    background-color:aqua;
+    border: 2px solid black;
+
+}
+.footerBottom{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.footerBottom:hover{
+color:chocolate;
+font-weight: bold;
+}
+.footerBottom span{
+    color:maroon;
+}
+.footerBottom span:hover{
+    color:aquamarine;
+}
+
+/*---FOOTER END----*/
+
+
+/*-----------BODY CONTENT START---------------*/
+
+#image img{
+    width: 900px;
+    height: 450px;
+    margin-top: 90px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+span{
+    color: chocolate;
+}
+.accordion{
+
+  margin-left: 25px;
+  margin-right: 25px;
+}
+h1{
+   font-weight: bold;
+   text-decoration: underline;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+/*--------------------HOT COFFEE--------------------*/
+
+/* #hot-img{
+  margin-left: 0px;
+} */
+/*------------------------------------------**/
+
+.card{
+    box-shadow: 4px 2px 8px 4px greenyellow;
+    transition:0.3s;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-right: 10px;
+    
+  }
+  .card:hover{
+    box-shadow: 0 8px 16px 0 chocolate;
+  }
+  h3{
+    font-size: 20px;
+    padding-top: 15px;
+
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'merriweather', serif;
+    
+}
+/* -- navbar start --*/
+.all{
+    background-color:white;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background-color:coral;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+.navbar{
+    background-color:greenyellow;
+    height: 60px;
+    width: 100%;
+}
+ img{
+  margin-left: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: 60px;
+    
+}
+.nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-link:hover{
+  background:white ;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid;
+}
+.navbar form{
+    width: 400px;
+}
+.navbar form button{
+    background:black;
+    color: white;
+    border: 2px solid;
+}   
+/*-- navbar end --*/
+
+/*-- Home page start --*/
+body{
+    background-image:url(./image/all1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+.main{
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.img1{
+    float: left;
+    padding-right: 20px;
+    
+}
+.p1{
+    font-size: 19px;
+}
+.p2{
+  font-size: 18px;  
+}
+ul{
+    padding-left: 780px;
+    list-style-type:decimal;
+    word-spacing: 7px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content h2{
+margin-left: 60px;
+
+}
+.content p{
+margin-left: 40px;
+font-size: 19px;
+}
+figcaption{
+margin-left: 250px;
+font-style: italic;
+} 
+
+
+/*-------FOOTER START--------------*/
+
+.footercontainer{
+    background-color:rgba(0, 0, 0, 0.228);
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.socialIcon{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+   
+}
+
+.socialIcon a{
+    padding: 10px;
+    background-color:white;
+    border-radius: 8px;
+    
+}
+.socialIcon a i{
+    font-size: 18px;
+    color:black;
+   
+    
+}
+.socialIcon a:hover{
+    background-color:aqua;
+    border: 2px solid black;
+
+}
+.footerBottom{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.footerBottom:hover{
+    color: greenyellow;
+}
+.footerBottom span{
+    color: aqua;
+}
+
+/*---------FOOTER END---------------*/
+ 

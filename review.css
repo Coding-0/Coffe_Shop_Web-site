@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'merriweather', serif;
+    
+}
+/* -- navbar start --*/
+.all{
+    background-color:white;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background-color:coral;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+.navbar{
+    background-color:greenyellow;
+    height: 60px;
+    width: 100%;
+}
+ img{
+  margin-left: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: 60px;
+    
+}
+.nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-link:hover{
+  background:white ;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid;
+}
+.navbar form{
+    width: 400px;
+}
+.navbar form button{
+    background:black;
+    color: white;
+    border: 2px solid;
+}   
+/*-- navbar end --*/
+
+/*-- Home page start --*/
+body{
+    background-image:url(./image/all1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 90px;
+}
+/*----------------------------*/
+
+.main{
+    color:black;
+    background-color:burlywood;
+    border: 2px solid black;
+    padding:  30px 20px 30px 30px;
+   
+}
+p{
+    font-size: 17px;
+}
+i{
+    padding-bottom: 20px;
+}
+
+
+/*---------FOOTER START--------------*/
+
+.footercontainer{
+    background-color:rgba(0, 0, 0, 0.501);
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.socialIcon{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+   
+}
+
+.socialIcon a{
+    padding: 10px;
+    background-color:white;
+    border-radius: 8px;
+    
+}
+.socialIcon a i{
+    font-size: 18px;
+    color:black;
+   
+    
+}
+.socialIcon a:hover{
+    background-color:aqua;
+    border: 2px solid black;
+
+}
+.footerBottom{
+    color:greenyellow;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.footerBottom:hover{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.footerBottom span{
+    color: aqua;
+}
+
+/*----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

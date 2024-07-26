@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS &B JS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Read more</title>
+    <link icon="icon" href="icon.jpg">
+    <link rel="stylesheet" href="read_btn.css">
+</head>
+<body>
+
+<!----------------NAVBAR START---------------->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex" href="#"><img src="logo.png" alt=""></a>
+         
+          <div class="offcanvas offcanvas-end" 
+          style="background-color: burlywood; text-align: center; width: 300px;"
+           tabindex="-1" id="offcanvasNavbar" 
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Coffee Shop..!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+            <div class="offcanvas-body g-2">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-lg-2" target="_blank" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" target="_blank" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" target="_blank" href="review.html">Review</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" target="_blank" href="gallery.html">Gallery</a>
+                  </li>
+                </ul>
+
+              <form class="d-flex">
+                <input class="form-control me-2" placeholder="Search">
+                <button class="btn btn-outline-success me-5">Search</button>
+              </form>
+             
+             </div>
+
+         </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" 
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        </div>
+      </nav>
+
+<!----------------BODY CONTENT--------------------->
+
+    
+     <!-- <br><h1 class="mt-5 ms-2">How Is Coffee Produced & Processed?</h1>
+     
+      <img src="manu1.webp" alt="" id="img1" 
+      style="width: 650px; height: 420px;float: left;border: 2px solid black;"
+      class="img-fluid  ms-2 ">
+      <p class="p1">Global coffee production reached more than 11 million tons last year, providing us with more than two billion cups of coffee. 
+       <br><br>Here, we take a detailed look at every step along a coffee’s journey from seed in the ground to a freshly brewed cup of coffee in your hands.
+      </p>
+      <p class="p2">From seed to cup, there are 11 stages:</p>
+     -->
+
+     <div class="container-fluid">
+        <div class="main">
+        <h1 style="margin-top: 100px;margin-left: 10px;">How Is Coffee Produced & Processed?</h1>
+        <div>
+          <figure>
+            <img src="./image/manu1.webp" alt="" id="img1" 
+            style="width: 600px; height: 400px;float: left;border: 2px solid black;"
+            class="img-fluid  ms-2 me-3 ">
+         </figure>
+     
+          <p class="p1">Global coffee production reached more than 11 million tons last year, providing us with more than two billion cups of coffee. 
+            <br><br>Here, we take a detailed look at every step along a coffee’s journey from seed in the ground to a freshly brewed cup of coffee in your hands.
+          </p>
+          <p class="p2">From seed to cup, there are 11 stages:</p>
+        
+        <ul>
+            <li>Planting</li>
+            <li>Harvesting</li>
+            <li>Processing</li>
+            <li>Drying</li>
+            <li>Resting</li>
+            <li>Milling</li>
+            <li>Grading and sorting</li>
+            <li>Exportation</li>
+            <li>Quality texting</li>
+            <li>Roasting</li>
+            <li>Grinding and brewing</li>
+        </ul>
+      </div>
+    
+      <!-- CONTENT START  -->
+    
+      <div class="content">
+    
+        <br><h2>1. Planting</h2>
+        <figure>
+            <figure>
+                <img src="./image/manu2.jpg" alt="" id="img1" 
+                style="width: 700px; height: 420px;border: 2px solid black;"
+                class="img-fluid ms-2 me-3">
+             </figure>
+        <figcaption> ( Coffee seedling at different stages of growth )</figcaption>
+         </figure>
+        <p class="ms-2">Seeds (unroasted coffee beans) are planted in shaded rows to protect them from too much exposure to the sun. Fresh seeds germinate about two and a half months after planting, but older seeds may take as long as six months.</p>
+     <p class="ms-2">Despite there being over 100 species of coffee plant, the world’s coffee is made up of just three species. The arabica species makes up 60 – 70 percent, 30 – 40 percent is made up of the robusta species, and less than two percent is from the liberica species.</p> 
+    <p class="ms-2">
+        The majority of the world’s coffee is grown within what is known as the coffee bean belt. The coffee belt is located between the Tropics of Cancer and Capricorn, spanning some 3200 miles (5100km) from north to south.
+    </p>
+    
+    <figure>
+        <img src="./image/manu3.jpg" alt="" id="img1" 
+        style="width: 700px;border: 2px solid black;"
+        class="img-fluid ms-2 ">
+   <figcaption>( The coffee belt highlighted in yellow )</figcaption>
+    </figure>
+    <p class="ms-2">
+        For best results, coffee plants should ideally be planted in areas that are hilly with volcanic soil that is rich in nitrogen. Arabica grows more slowly and is more costly to produce; however, it produces a vastly superior cup of coffee.
+    </p>
+    <p class="ms-2">
+        Coffee is planted at elevation because the temperature is cooler and more stable at altitude. The arabica variety has to be planted at higher altitudes than robusta, around 1000 – 2000m (3300 – 6600ft) above sea level. Ideal temperatures for arabica are between 15 to 25ºC (59 – 77ºF).
+    </p>
+    <p class="ms-2">
+        Robusta is generally grown at lower altitudes, from 200 – 600m (650 – 2000ft), but it’s even able to grow at sea level. Because robusta is hardier than arabica, it prefers higher temperatures between 20 – 30ºC (68 – 86ºF).
+    </p>
+    <p class="ms-2">
+        Arabica coffee needs an annual rainfall of 1500 – 2500mm (60 – 100in), and robusta needs 2000mm – 3000mm (80 – 120in). It’s important to have a distinct wet season for growing the coffee and a dry season for harvesting the coffee cherries.
+    </p>
+    
+    
+    <h2>2. Harvesting</h2>
+    
+    <figure>
+        <img src="./image/manu4.webp" alt="" id="img1" 
+        style="width: 700px;;border: 2px solid black;"
+        class="img-fluid ms-2">
+  
+    <figcaption> (Clusters of coffee cherries)</figcaption>
+    </figure>
+    
+    <p class="ms-2">
+        When a coffee tree reaches maturity, it begins to bear fruit in clusters along its branches. The fruit is known as a coffee cherry due to its resemblance to normal cherries. The coffee cherry is initially green and turns to red, yellow or orange when it has matured and is ready for harvesting.
+     </p>
+    <p class="ms-2">
+        The first harvest of a coffee plant is usually around five years after planting. Coffee is usually harvested only once a year during the dry season; however, some countries do produce a second, smaller harvest such as Colombia’s mitaca harvest.
+    </p>
+    <p class="ms-2">
+        In countries where there are no distinct wet and dry seasons, such as in Kenya, there will be two flowerings and harvests per year. The first harvest will be the main harvest and the second, which is known as its ‘fly’ crop, will be a lot smaller
+    </p>
+    <p class="ms-2">
+        Harvesting takes place north of the equator between the months of September to March. South of the equator, the harvest is from April to August.
+    </p>
+    <p class="ms-2">
+        Coffee is picked mostly by hand or with the aid of a mechanical stripper. In some lands, machines are used to harvest the coffee cherries.
+    </p>
+    
+    <h1>Selective picking by hand</h1>
+    <p class="ms-2">Although picking coffee cherries one-by-one by hand is very labour intensive, it produces the best quality coffees. Pickers go out into the farms with baskets hung around their waists, ideally looking to pick only the ripest coffee cherries.</p>
+    <figure>
+        <img src="./image/manu5.jpg" alt="" id="img1" 
+        style="width: 700px;border: 2px solid black;"
+        class="img-fluid ms-2 me-3">
+     <figcaption> (Picking coffee cherries by hand)</figcaption>
+    </figure>
+    
+    <br><p class="ms-2">
+        Picking unripe cherries results in an inferior cup of coffee as the sugars in the fruit haven’t had chance to fully develop, which greatly affects the beans housed inside. As you know, a piece of fruit that hasn’t ripened fully is unpleasantly sour and not enjoyable to eat.
+    </p>
+    <p class="ms-2">
+        Once a picker’s basket is filled with cherries, they will empty their basket into large collection bags. At the end of each day, these large collection bags are emptied, sorted of any debris and then weighed. The picker is then paid according to how much they picked that day.
+    </p>
+    
+    <h2>3. Processing</h2>
+    <figure>
+        <img src="./image/manu6.webp" alt="" id="img1" 
+        style="width: 700px;border: 2px solid black;"
+        class="img-fluid ms-2 ">
+     <figcaption> (Green coffee beans extracted from ripe coffee cherries)</figcaption>
+     </figure>
+     <p class="ms-2">
+        Coffee is processed in one of three ways :
+     </p>
+    
+    <div style="margin-left: 50px; word-spacing: 4px;">
+     <p>1. Washed-processed, also known as the wet process. </p>
+     <p>2. Naturally-processed, also known as the dry process.</p>
+     <p>3. Honey-processed, also known as the semi-washed process.</p>
+    </div>
+    
+    <p class="ms-2">
+        In today’s world, processed food has negative connotations. However, when we speak of processing coffee, it is nothing more than the act of extracting the beans from the coffee cherry fruit so that it can be prepared for roasting.As the wording suggests, the wet process re
+    </p>
+    <p class="ms-2">
+        As the wording suggests, the wet process requires the use of water whereas the dry process does not. Semi-washed is a hybrid of the two methods, requiring water but in lesser amounts.
+    </p>
+    <p class="ms-2">
+        The processing method that is chosen depends on factors such as the farmers’ financial situation, the year’s rainfall and humidity levels, and if there is access to clean, running water. As such, many African coffees are naturally-processed (dry-processed) due to a shortage of water.
+    </p>
+    <p class="ms-2">
+        In the specialty industry, washed coffees are the most highly prized as they reflect more the terroir of the coffee. Washed coffees also display more acidity, something which is also an indicator of good coffee.
+    </p>
+    <p class="ms-2">
+        Natural-processed coffees tend to be sweeter and heavier with funkier berry-fruit flavours, often described as having a boozy, wine-like quality.
+    </p>
+    <figure>
+        <img src="./image/manu7.webp" alt="" id="img1" 
+        style="width: 700px; height: 420px;border: 2px solid black;"
+        class="img-fluid ms-2">
+    </figure>
+    
+    <h2>4. Drying</h2>
+    <p class="ms-2">
+        Following the processing of the coffee beans, they have to be dried. After the coffee has been processed, it has a moisture content of around 45 – 60 percent. This needs to be lowered to between 10 – 12 percent to avoid spoilage caused by mould forming amongst the moist beans.
+    </p>
+    <figure>
+        <img src="./image/manu8.webp" alt="" id="img1" 
+        style="width: 700px; height: 420px;border: 2px solid black;"
+        class="img-fluid ms-2 me-3">
+   
+        <figcaption> (Naturally-processed coffee: Left: whole dried cherries. Right: whole fresh cherries)</figcaption>
+     </figure>
+    
+        <p class="ms-2">
+            Coffee beans can either be dried in the sun or by machine. In most cases, the coffee beans are dried in the sun until they reach a moisture content between 11 – 12 percent. Once they reach this stage, the beans are transferred to mechanical driers to bring the content down to 10 percent.
+        </p>
+        <p class="ms-2">
+            There are three main methods used to dry the cherries, which are patios, raised beds or mechanical dryers. Drying entirely by machine is usually only carried out when space is at a premium or the humidity is too high for the beans to dry.
+        </p>
+        <h1>Patios</h1>
+        <p class="ms-2">
+            The cherries are laid out in rows on clay or cement-tiled patios in piles 8 – 15cm (3 – 5in) deep. The direct heat from sunlight is absorbed by the tile, drying the cherries. To ensure uniformity, the cherries are turned every hour during the day.
+        </p>
+        <p class="ms-2">
+            Drying on patios takes 6 – 7 days for washed-processed coffee, 8 – 9 days for honey-processed coffee, and 12 – 14 days for natural-processed coffee.
+        </p>
+        <p class="ms-2">
+        Coffee beans are typically dried on patios until they reach a moisture content of 15 percent, after which they are transferred to mechanical dryers.
+        </p>
+    <h2>5. Resting</h2>
+      <p class="ms-2">
+        The coffee beans now need to go through a resting period, known as reposa, before the parchment layer is removed. Depending on the storage method used, the parchment coffee can be in reposa upwards of 90 days. Resting the coffee this way improves its overall shelf life.
+      </p>
+      <p class="ms-2">
+        For correct storage, the coffee needs to be in an environment that has limited light exposure, a stable temperature and proper ventilation.
+        Coffee that is exposed to hot, humid air through improper storage will either not stabilize properly or will begin to reabsorb moisture.
+      </p>
+      <p class="ms-2">
+        The coffee beans are mostly stored in jute bags that are stacked on pallets in huge quantities. These towers of stacked bags can limit the air movement around the coffee.
+      </p>
+      <p class="ms-2">
+        Another storage method is large wooden silos. Facilities that use this method may have more control over the process, creating a more uniform product.
+      </p>
+      
+      <h2>6. Milling</h2>
+      <p class="ms-2">
+        The first step in the milling process is known as hulling. The hulling process is carried out to remove the parchment layer that coats the coffee beans. The process also removes some of the silver skin layer beneath the parchment, too.
+      </p>
+      <p class="ms-2">
+        The hulling machine uses friction to remove the layers, but great care needs to be taken so as not to generate too much heat as it negatively impacts the quality of the coffee beans.
+      </p>
+      <p class="ms-2">
+        Now that the coffee beans have had their parchment layer removed, the only layer left surrounding the coffee beans is the silver skin. As not all of the silver skin that coats the coffee beans is entirely removed through hulling, some plantations send the coffee beans to have it removed in a process known as polishing.
+      </p>
+      <p class="ms-2">
+        Polishing improves the appearance of the green coffee beans and also eliminates the chaff that separates from the beans during roasting.
+      </p>
+    
+      <h2>7. Grading and sorting</h2>
+      <p class="ms-2">
+        Green coffee is sorted to remove visual defects, foreign matter and to sort the coffee beans into uniform sizes. There are several methods used to sort green coffee: colour sorting (manual or electronic) and by screen size and weight.
+      </p>
+      <h1>Sorting by colour</h1>
+      <p class="ms-2">
+        Manual sorting is often carried out by the wives of the farmers. Teams of workers sort through the piles of coffee beans, discarding discoloured and defective beans.
+      </p>
+      <p class="ms-2">
+        High-quality coffee beans may be sorted up to three times using this method.
+      </p>
+      <p class="ms-2">
+        Much less common is the use of electronic colour machines. These machines use special cameras to evaluate the colour of each bean by comparing it to a colour range that has been preprogrammed.
+      </p>
+      <p class="ms-2">
+        If the bean is outside of the colour range, a brief puff of air removes it from the fast-moving stream of beans flowing through the machine.
+      </p>
+    <h1>Sorting by size and weight</h1>
+    <p class="ms-2">
+        Screen sorting runs the coffee beans through a series of sieves of different hole sizes, separating them according to size. Typically, the bean size is represented on a scale of 10 to 20, with the holes of the sieves gauged in 0.4mm (1/64in) increments.
+        To sort the beans by weight, they are sorted pneumatically using an air jet to separate heavy from light beans.
+    </p>
+    <h2>8. Exportation</h2>
+    <p class="ms-2">
+        The raw, green coffee beans are now bulk-shipped inside plastic-lined containers or loaded into the containers in either jute or sisal bags.
+    </p>
+    <p class="ms-2">
+        Coffee is the second most traded commodity in the world after oil, and the coffee exportation business is worth more than $20 billion. A whopping 25 million people rely on the coffee industry to make their living.
+    </p>
+    <h2>9. Quality testing</h2>
+    <p class="ms-2">
+        The green coffee is now tasted and evaluated in a process known as coffee cupping. The cupping process is carried out in order to test and assess the coffee for its quality.
+    </p>
+    <figure>
+        <img src="./image/manu9.jpg" alt="" id="img1" 
+        style="width: 700px; height: 420px;border: 2px solid black;"
+        class="img-fluid ms-2 me-3">
+  
+        <figcaption> (Professional coffee cupper assessing the coffee’s aroma)</figcaption>
+    </figure>
+    <p class="ms-2">
+        Cuppers assess the aroma, flavour, sweetness, acidity, bitterness, mouthfeel and overall balance of the coffees. The process serves to determine the price of the coffee based on its quality.
+    </p>
+    <p class="ms-2">
+        First of all, the cupper visually checks the quality of the green beans by inspecting for defects and flaws.
+       The green beans are then roasted in small batches and immediately ground and brewed with freshly boiled water in small ramekin-like bowls that are known as cupping bowls.
+    </p>
+    <p class="ms-2">
+        The coffee is left to steep for four minutes, at which time the cupper breaks the floating coffee grounds which have formed a crust on the surface, simultaneously assessing the aroma of the coffee.
+    </p>
+    <p class="ms-2">
+        The coffee is now left for a further ten minutes or so to cool. Once sufficiently cooled, the cuppers begin sampling the coffees one-by-one, using a large convexed spoon and drawing the coffee into the mouth in a slurping motion so as to aerate the coffee, which aids tasting.
+    </p>
+    <p class="ms-2">
+        The coffee is usually spat out so as not to exhaust the palate, the same as with wine tasting. The process is repeated until the coffees are either finished or have become too cold. A professional cupper may taste hundreds of coffees per day.
+    </p>
+    <h2>10. Roasting</h2>
+    <p class="ms-2">
+        The process of roasting coffee is carried out in order to turn the green coffee beans that have a distinct earthy and straw-like aroma into the aromatic brown coffee beans that we all love.
+    </p>
+    
+    <figure>
+        <img src="./image/manu10.jpg" alt="" id="img1" 
+        style="width: 700px; height: 420px;border: 2px solid black;"
+        class="img-fluid ms-2 me-3">
+  
+        <figcaption> (Roasting releasing freshly roasted coffee beans for rapid cooling)</figcaption>
+    </figure>
+    <p class="ms-2">
+        The process is carried out in dedicated coffee roasting machines, which have the capacity to roast batches weighing anywhere from 1kg (2lbs) to more than 100kg (200lbs) at a time.
+    </p>
+    <p class="ms-2">
+        Before roasting large batches, coffee roasters evaluate the beans by roasting smaller quantities, known as sample roasts. After each roast, the roaster will also cup the coffee to test the quality.
+    </p>
+    <p class="ms-2">Cupping is also necessary for creating consistent coffee blends. Coffee blends need to remain consistent so that the public can enjoy the same taste year after year.
+    </p>
+    <p class="ms-2">Many coffee roasters produce two different types of roast depending on whether the beans are intended for espresso preparation or filter brew preparation. Some roasters produce what’s known as an omni-roast, a type of roast profile that can be used for both espresso and filter coffees.
+    </p>
+    <p class="ms-2">
+        Good quality specialty roasters pack their freshly roasted coffees in specially designed bags that have a one-way valve. The valve enables the CO2 caused by the roasting process to escape but prevents oxygen from entering and spoiling the beans.
+    </p>
+    <p class="ms-2">Some roasters even go so far as to flush their bags with nitrogen to ensure the bag is entirely free of any oxygen when sealed, greatly preserving the quality of the coffee whilst also prolonging its shelf life.
+    </p>
+    <h2>11. Grinding and brewing</h2>
+    <p class="ms-2">Approximately 35 percent of the mass of a coffee bean is soluble in water. Grinding whole bean coffee is necessary so that the water can more quickly extract the flavours.
+    </p>
+    <figure>
+        <img src="./image/manu11.jpg" alt="" id="img1" 
+        style="width: 700px; height: 420px;border: 2px solid black;"
+        class="img-fluid ms-2 me-3">
+     <figcaption> (Coarsely ground coffee being weighed on a scale for consistency)</figcaption>
+    </figure>
+    <p class="ms-2">The size of the grind depends on the type of brewing method that is being used. The length of time that the water is in contact with the coffee goes towards determining the grind size, too.
+    </p>
+    <p class="ms-2">As such, a very fine grind is used for espresso as brewing is completed within around 30 seconds. At the coarser end is a grind size such as that used for French press, where the water is in contact with the ground coffee anywhere from four to 15 minutes.</p>
+    <p class="ms-2">Just as how cooking techniques such as frying, boiling, baking and poaching can all influence how a particular ingredient tastes, so the same is true with coffee.
+    </p>
+    <p class="ms-2">Brewing apparatus, brew time, grind size and water temperature all have a large impact on how a particular coffee tastes.
+      Brewing apparatus come in many different forms. The most common are espresso machines, percolation brewers, infusion brewers and stove-top brewers.
+    </p>
+    <p class="ms-2">Espresso machines come in many different sizes and varieties but are essential if you want to enjoy true espresso. Very finely ground coffee is tamped and compacted into a portafilter which is then locked into the espresso machine. Near-boiling water is forced through the bed of coffee typically at nine bars of atmospheric pressure.
+    </p>
+    
+    </div>
+   </div>
+</div>
+
+<!--------FOOTER START------------>
+
+    <div class="footercontainer">
+    <center>
+    <div class="socialIcon">
+      <a href="https://www.facebook.com/profile.php?id=100094671681700"><i class="fa-brands fa-facebook"></i></a>
+     <a href=" https://wa.me/9072246280"><i class="fa-brands fa-whatsapp"></i></a>
+     <a href="https://www.instagram.com/s_i_n_d_h_u_ja/"><i class="fa-brands fa-square-instagram"></i></a>
+     <a href="https://x.com/NishanthGanesh5"><i class="fa-brands fa-twitter"></i></a>
+     <a href="https://github.com/Coding-0"><i class="fa-brands fa-square-github"></i></a>
+    </div>
+
+      <div class="footerBottom">
+       <p>Copyright &copy; 2024; Designed by <span>PRADEEPA</span></p>
+      </div>
+    </center>
+    </div>
+
+</body>
+</html>
+
