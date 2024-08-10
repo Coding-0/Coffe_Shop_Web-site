@@ -92,10 +92,17 @@ label{
     font-weight: bold;
 }
 
-
-
-
-
+.Submit{
+    color: black;
+    background-color:rgba(210, 105, 30, 0.712);
+    margin-top: 40px;
+    height: 42px;
+    width: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 80px;
+} 
 
 /*---------FOOTER START--------------*/
 
